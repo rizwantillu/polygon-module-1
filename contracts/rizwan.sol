@@ -4,18 +4,18 @@ pragma solidity ^0.8.9;
 
 import "erc721a/contracts/ERC721A.sol";
 
-contract nomme is ERC721A {
+contract viol is ERC721A {
     address public owner;
 
     uint256 public maxQuantity = 5;
 
     
     string baseUrl =
-        "https://indigo-immense-barnacle-223.mypinata.cloud/ipfs/QmYAguVHDGpTpHTP1bpG9VmVhZHJt5RHQii4TvAxbCWUqo/";
+       specific url;
 
 
-    string public prompt = "not me";
-    constructor() ERC721A("CuteCats", "CC") {
+    string public prompt = "rizwan is me";
+    constructor() ERC721A("rizwans", "RM") {
         owner = msg.sender;
     }
 
